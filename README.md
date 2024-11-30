@@ -19,6 +19,10 @@ add into .env
 </p>
 <p>
     run php artisan config:clear
+</p>
+<p>
     php artisan cache:clear
+   </p>
+   <p>
     php artisan serve
 </p>
