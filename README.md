@@ -1,4 +1,4 @@
-<h2>Send Asynchronous Email</h2>
+<h2>Send Asynchronous Email Using Laravel Jobs</h2>
 <p>
     run composer update <br>
     create databae and connect in .env file
