@@ -5,8 +5,9 @@
     run php artisan migrate
 </p>
 <p>  create your email account in <a href="https://support.google.com/accounts/answer/185833?hl=en">Here</a></p>
+add into .env
 <p>
-    add into .env
+    
     MAIL_DRIVER=smtp
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587
@@ -15,7 +16,8 @@ MAIL_PASSWORD=yourpassword
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=emailaddress
 MAIL_FROM_NAME=username
-
+</p>
+<p>
     run php artisan config:clear
     php artisan cache:clear
     php artisan serve
