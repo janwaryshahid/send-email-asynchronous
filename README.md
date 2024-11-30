@@ -1,7 +1,10 @@
 <h2>Send Asynchronous Email</h2>
 <p>
-    run composer update
+    run composer update <br>
     create databae and connect in .env file
+    <br>
+    add QUEUE_CONNECTION=database in env
+    <br>
     run php artisan migrate
 </p>
 <p>  create your email account in <a href="https://support.google.com/accounts/answer/185833?hl=en">Here</a></p>
