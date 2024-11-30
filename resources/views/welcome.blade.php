@@ -1,0 +1,1 @@
+<a href="{{route('send_email')}}">Send Email</a>
