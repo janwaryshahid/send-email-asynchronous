@@ -3,7 +3,9 @@
     run composer update
     create databae and connect in .env file
     run php artisan migrate
-    create your email account in <a href="https://support.google.com/accounts/answer/185833?hl=en">Here</a>
+</p>
+<p>  create your email account in <a href="https://support.google.com/accounts/answer/185833?hl=en">Here</a></p>
+<p>
     add into .env
     MAIL_DRIVER=smtp
 MAIL_HOST=smtp.gmail.com
